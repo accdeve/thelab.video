@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Lab Indonesia • Video Belajar</title>
+
+  <!-- PWA & Meta -->
+  <meta name="theme-color" content="#0F145B" />
+  <meta name="description" content="Katalog Video Panduan LEGO & Robotika The Lab Indonesia." />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" type="image/png" href="icons/icon-192.png" />
+
+  <!-- Google Font: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Top Header (The Lab Style) -->
+  <header class="tli-header">
+    <div class="tli-header-left">
+      <a href="#" class="tli-logo-link" id="tli-logo-link" title="Beranda The Lab">
+        <span class="tli-logo-badge">THE LAB</span>
+        <span class="tli-logo-title">Kids <span>Video Hub</span></span>
+      </a>
+    </div>
+
+    <!-- Center Search Bar -->
+    <div class="tli-header-center">
+      <div class="tli-search-box">
+        <span class="tli-search-icon">🔍</span>
+        <input 
+          type="text" 
+          id="tli-search-input" 
+          class="tli-search-input" 
+          placeholder="Cari nama model dari picking list... (cth: Crocodile, Tricycle, Bulldozer)" 
+          autocomplete="off" 
+          spellcheck="false"
+        />
+        <button type="button" id="tli-search-clear" class="tli-search-clear" title="Hapus">✕</button>
+      </div>
+    </div>
+
+    <div class="tli-header-right">
+      <div class="tli-stat-badge" id="tli-stat-badge">0 Model Selesai</div>
+    </div>
+  </header>
+
+
+
+  <!-- Navigation & Filter Tabs (The Lab Brand Colors) -->
+  <nav class="tli-filter-nav">
+    <div class="tli-program-tabs" id="tli-program-tabs">
+      <button class="tli-tab-btn active" data-program="all">Semua Program (90)</button>
+      <button class="tli-tab-btn" data-program="spike-kinder">🟡 Spike Kinder (28)</button>
+      <button class="tli-tab-btn" data-program="spike-foundation">🔵 Spike Jr Foundation (20)</button>
+      <button class="tli-tab-btn" data-program="spike-junior">🟣 Spike Junior (42)</button>
+    </div>
+  </nav>
+
+  <!-- Alphabet Filter Row for Quick Picking List Matching -->
+  <div class="tli-alphabet-bar">
+    <div class="tli-alphabet-inner" id="tli-alphabet-inner">
+      <!-- Populated by JS -->
+    </div>
+  </div>
+
+  <!-- VIEW 1: Home Video Grid -->
+  <main class="tli-content-container" id="tli-home-view">
+    <div class="tli-grid-header">
+      <div class="tli-grid-title" id="tli-grid-count">Memuat model...</div>
+      <div class="tli-grid-sort-info">Diurutkan A – Z sesuai Picking List</div>
+    </div>
+
+    <div class="tli-grid" id="tli-video-grid">
+      <!-- Cards rendered by JS -->
+    </div>
+
+    <div class="tli-empty-state" id="tli-empty-state">
+      <h3>Model LEGO Tidak Ditemukan</h3>
+      <p>Coba periksa kembali ejaan di kertas picking list atau pilih huruf alfabet lain.</p>
+    </div>
+  </main>
+
+  <!-- VIEW 2: Watch View (The Lab Modern Player) -->
+  <div class="tli-watch-view" id="tli-watch-view">
+    
+    <!-- Left: Video Player & Info -->
+    <div class="tli-watch-primary">
+      <div class="tli-player-frame">
+        <iframe 
+          id="tli-watch-iframe" 
+          src="" 
+          title="Video Panduan The Lab"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <div class="tli-watch-info">
+        <div class="tli-watch-top-row">
+          <div class="tli-watch-title-group">
+            <h1 id="tli-watch-title">Nama Model</h1>
+            <p id="tli-watch-sub">The Lab Indonesia • Kurikulum LEGO Spike</p>
+          </div>
+          <button class="tli-btn-back" id="tli-btn-back">← Kembali ke Katalog</button>
+        </div>
+
+        <div class="tli-watch-actions-row">
+          <div class="tli-btn-group">
+            <button class="tli-btn-done" id="tli-btn-done">⭐ Tandai Selesai</button>
+          </div>
+          <a class="tli-btn-yt-fallback" id="tli-btn-yt-fallback" href="#" target="_blank" rel="noopener">
+            ↗ Buka di YouTube Langsung
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: Sidebar List -->
+    <aside class="tli-watch-secondary">
+      <div class="tli-sidebar-card">
+        <div class="tli-sidebar-title">Model Terkait / Berikutnya</div>
+        <div class="tli-sidebar-list" id="tli-sidebar-list">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </aside>
+
+  </div>
+
+  <!-- Data & Logic -->
+  <script src="videos-data.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,733 @@
+/* ============================================================
+   The Lab Indonesia - Official Style Guide Theme
+   Font: Plus Jakarta Sans
+   Palette: Midnight Navy (#0F145B), Cyber Yellow (#FECF41), Bright Teal (#00BDCD)
+============================================================ */
+
+:root {
+  /* The Lab Official Palette */
+  --tli-navy: #0F145B;
+  --tli-navy-dark: #090640;
+  --tli-navy-alt: #161176;
+  --tli-yellow: #FECF41;
+  --tli-yellow-hover: #FFC30F;
+  --tli-yellow-light: #FFCF62;
+  --tli-teal: #00BDCD;
+  --tli-teal-dark: #005B7F;
+  --tli-green-done: #2ECC71;
+
+  /* Surfaces & Neutrals */
+  --tli-bg: #F3F4F8;
+  --tli-surface-white: #FFFFFF;
+  --tli-surface-cyan: #E5F8FA;
+  --tli-line: #E6E8F0;
+  --tli-text-primary: #0F145B;
+  --tli-text-body: #231F20;
+  --tli-text-muted: #5B6070;
+
+  /* Typography */
+  --font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Elevation & Radius */
+  --radius-card: 16px;
+  --radius-pill: 999px;
+  --radius-sm: 8px;
+  --shadow-card: 0 4px 16px rgba(15, 20, 91, 0.07);
+  --shadow-elevated: 0 10px 28px rgba(15, 20, 91, 0.12);
+  --header-height: 64px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--tli-bg);
+  color: var(--tli-text-body);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+/* ============================================================
+   Header (The Lab Navy Theme)
+============================================================ */
+.tli-header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--header-height);
+  background: var(--tli-navy);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  box-shadow: 0 3px 12px rgba(15, 20, 91, 0.2);
+  z-index: 200;
+}
+
+.tli-header-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 220px;
+}
+
+.tli-logo-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tli-logo-badge {
+  background: var(--tli-yellow);
+  color: var(--tli-navy);
+  font-weight: 800;
+  font-size: 15px;
+  padding: 5px 10px;
+  border-radius: var(--radius-sm);
+  letter-spacing: 0.5px;
+}
+
+.tli-logo-title {
+  font-size: 17px;
+  font-weight: 700;
+  color: white;
+  letter-spacing: -0.2px;
+}
+
+.tli-logo-title span {
+  color: var(--tli-yellow);
+}
+
+/* Search Bar in Header */
+.tli-header-center {
+  flex: 1;
+  max-width: 580px;
+  margin: 0 20px;
+}
+
+.tli-search-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.tli-search-icon {
+  position: absolute;
+  left: 14px;
+  color: var(--tli-text-muted);
+  font-size: 15px;
+  pointer-events: none;
+}
+
+.tli-search-input {
+  width: 100%;
+  background: white;
+  border: 1px solid transparent;
+  border-radius: var(--radius-pill);
+  padding: 10px 40px 10px 38px;
+  font-family: var(--font-family);
+  font-size: 14px;
+  color: var(--tli-navy);
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.tli-search-input:focus {
+  border-color: var(--tli-yellow);
+  box-shadow: 0 0 0 3px rgba(254, 207, 65, 0.3);
+}
+
+.tli-search-input::placeholder {
+  color: #8C9099;
+}
+
+.tli-search-clear {
+  position: absolute;
+  right: 12px;
+  background: #E5E7EB;
+  border: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  font-size: 12px;
+  color: var(--tli-text-muted);
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.tli-header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 150px;
+  justify-content: flex-end;
+}
+
+.tli-stat-badge {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--tli-yellow);
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(254, 207, 65, 0.3);
+  padding: 6px 12px;
+  border-radius: var(--radius-pill);
+}
+
+/* ============================================================
+   Navigation & Filter Bar
+============================================================ */
+.tli-filter-nav {
+  background: white;
+  border-bottom: 1px solid var(--tli-line);
+  position: sticky;
+  top: var(--header-height);
+  z-index: 100;
+}
+
+.tli-program-tabs {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 24px;
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.tli-program-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.tli-tab-btn {
+  background: var(--tli-bg);
+  border: 1px solid var(--tli-line);
+  color: var(--tli-navy);
+  font-family: var(--font-family);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.18s ease;
+}
+
+.tli-tab-btn:hover {
+  background: #EAECEF;
+}
+
+.tli-tab-btn.active {
+  background: var(--tli-navy);
+  color: white;
+  border-color: var(--tli-navy);
+}
+
+.tli-tab-btn[data-program="spike-kinder"].active {
+  background: var(--tli-yellow);
+  color: var(--tli-navy-dark);
+  border-color: var(--tli-yellow);
+}
+
+.tli-tab-btn[data-program="spike-foundation"].active {
+  background: var(--tli-teal);
+  color: white;
+  border-color: var(--tli-teal);
+}
+
+/* Alphabet Filter Bar */
+.tli-alphabet-bar {
+  background: #FAFAFC;
+  border-bottom: 1px solid var(--tli-line);
+  padding: 8px 24px;
+}
+
+.tli-alphabet-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.tli-alphabet-inner::-webkit-scrollbar {
+  display: none;
+}
+
+.tli-alpha-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--tli-teal-dark);
+  white-space: nowrap;
+  margin-right: 6px;
+}
+
+.tli-alpha-btn {
+  background: white;
+  border: 1px solid var(--tli-line);
+  color: var(--tli-navy);
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s ease;
+}
+
+.tli-alpha-btn:hover {
+  background: var(--tli-surface-cyan);
+  border-color: var(--tli-teal);
+}
+
+.tli-alpha-btn.active {
+  background: var(--tli-navy);
+  color: white;
+  border-color: var(--tli-navy);
+}
+
+
+
+/* ============================================================
+   Home View: Video Grid (The Lab Card Style)
+============================================================ */
+.tli-content-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.tli-grid-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.tli-grid-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--tli-navy);
+}
+
+.tli-grid-sort-info {
+  font-size: 13px;
+  color: var(--tli-text-muted);
+}
+
+.tli-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 20px;
+}
+
+/* The Lab Style Card */
+.tli-card {
+  background: var(--tli-surface-white);
+  border: 1px solid var(--tli-line);
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+  /* Top accent border based on style guide */
+  border-top: 5px solid var(--tli-yellow);
+}
+
+.tli-card[data-program="spike-kinder"] {
+  border-top-color: var(--tli-yellow);
+}
+
+.tli-card[data-program="spike-foundation"] {
+  border-top-color: var(--tli-teal);
+}
+
+.tli-card[data-program="spike-junior"] {
+  border-top-color: var(--tli-navy);
+}
+
+.tli-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-elevated);
+}
+
+.tli-card-thumb-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #EAECEF;
+  overflow: hidden;
+}
+
+.tli-card-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.tli-card-badge {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  background: rgba(15, 20, 91, 0.88);
+  color: white;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.tli-card-done-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: var(--tli-green-done);
+  color: white;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 3px 7px;
+  border-radius: var(--radius-pill);
+  display: none;
+}
+
+.tli-card.is-done .tli-card-done-badge {
+  display: block;
+}
+
+.tli-card-body {
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.tli-card-model-name {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--tli-navy);
+  margin-bottom: 4px;
+  line-height: 1.35;
+}
+
+.tli-card-program-name {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--tli-teal-dark);
+  margin-bottom: 8px;
+}
+
+.tli-card-picking-name {
+  font-size: 11px;
+  color: var(--tli-text-muted);
+  border-top: 1px solid #F0F2F5;
+  padding-top: 6px;
+  margin-top: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Empty State */
+.tli-empty-state {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+  border-radius: var(--radius-card);
+  border: 1px solid var(--tli-line);
+  display: none;
+}
+
+.tli-empty-state h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--tli-navy);
+  margin-bottom: 6px;
+}
+
+.tli-empty-state p {
+  color: var(--tli-text-muted);
+  font-size: 14px;
+}
+
+/* ============================================================
+   Watch View (The Lab Modern Player)
+============================================================ */
+.tli-watch-view {
+  display: none;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 24px;
+  gap: 24px;
+}
+
+.tli-watch-view.active {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 380px;
+}
+
+.tli-watch-primary {
+  display: flex;
+  flex-direction: column;
+}
+
+.tli-player-frame {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  background: #000;
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  margin-bottom: 16px;
+}
+
+.tli-player-frame iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.tli-watch-info {
+  background: white;
+  border: 1px solid var(--tli-line);
+  border-radius: var(--radius-card);
+  padding: 20px;
+  box-shadow: var(--shadow-card);
+}
+
+.tli-watch-top-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.tli-watch-title-group h1 {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--tli-navy);
+  line-height: 1.3;
+}
+
+.tli-watch-title-group p {
+  font-size: 13px;
+  color: var(--tli-text-muted);
+  margin-top: 2px;
+}
+
+.tli-btn-back {
+  background: #F3F4F8;
+  border: 1px solid var(--tli-line);
+  color: var(--tli-navy);
+  font-family: var(--font-family);
+  font-size: 13px;
+  font-weight: 700;
+  padding: 8px 16px;
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s ease;
+}
+
+.tli-btn-back:hover {
+  background: #EAECEF;
+}
+
+.tli-watch-actions-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 14px;
+  border-top: 1px solid var(--tli-line);
+  flex-wrap: wrap;
+}
+
+.tli-btn-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tli-btn-done {
+  background: var(--tli-yellow);
+  color: var(--tli-navy-dark);
+  border: none;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 9px 18px;
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.tli-btn-done:hover {
+  background: var(--tli-yellow-hover);
+}
+
+.tli-btn-done.is-done {
+  background: var(--tli-navy);
+  color: white;
+}
+
+.tli-btn-yt-fallback {
+  background: transparent;
+  border: 1px solid #D1D5DB;
+  color: #4B5563;
+  font-family: var(--font-family);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 14px;
+  border-radius: var(--radius-pill);
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.tli-btn-yt-fallback:hover {
+  background: #F3F4F6;
+  color: #111827;
+}
+
+/* Watch View Sidebar */
+.tli-watch-secondary {
+  display: flex;
+  flex-direction: column;
+}
+
+.tli-sidebar-card {
+  background: white;
+  border: 1px solid var(--tli-line);
+  border-radius: var(--radius-card);
+  padding: 16px;
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+}
+
+.tli-sidebar-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--tli-navy);
+  margin-bottom: 12px;
+}
+
+.tli-sidebar-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: calc(100vh - 180px);
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.tli-side-item {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: var(--radius-sm);
+  transition: background 0.15s ease;
+}
+
+.tli-side-item:hover {
+  background: #F3F4F8;
+}
+
+.tli-side-item.active-item {
+  background: var(--tli-surface-cyan);
+}
+
+.tli-side-thumb {
+  width: 120px;
+  aspect-ratio: 16 / 9;
+  border-radius: 6px;
+  object-fit: cover;
+  background: #E5E5E5;
+  flex-shrink: 0;
+}
+
+.tli-side-meta {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.tli-side-name {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--tli-navy);
+  line-height: 1.3;
+  margin-bottom: 2px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.tli-side-prog {
+  font-size: 11px;
+  color: var(--tli-text-muted);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .tli-watch-view.active {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .tli-header {
+    padding: 0 14px;
+  }
+  .tli-header-left {
+    min-width: auto;
+  }
+  .tli-header-right {
+    display: none;
+  }
+  .tli-header-center {
+    margin: 0 8px;
+  }
+  .tli-content-container {
+    padding: 14px;
+  }
+  .tli-grid {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 14px;
+  }
+  .tli-watch-view {
+    padding: 14px;
+  }
+  .tli-watch-title-group h1 {
+    font-size: 18px;
+  }
+}
