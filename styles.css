@@ -81,30 +81,25 @@ body {
 .tli-logo-link {
   display: flex;
   align-items: center;
-  gap: 10px;
   text-decoration: none;
   cursor: pointer;
-}
-
-.tli-logo-badge {
-  background: var(--tli-yellow);
-  color: var(--tli-navy);
-  font-weight: 800;
-  font-size: 15px;
-  padding: 5px 10px;
+  background: white;
+  padding: 4px 10px;
   border-radius: var(--radius-sm);
-  letter-spacing: 0.5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  height: 44px;
+  transition: transform 0.15s ease;
 }
 
-.tli-logo-title {
-  font-size: 17px;
-  font-weight: 700;
-  color: white;
-  letter-spacing: -0.2px;
+.tli-logo-link:hover {
+  transform: scale(1.02);
 }
 
-.tli-logo-title span {
-  color: var(--tli-yellow);
+.tli-logo-img {
+  height: 36px;
+  width: auto;
+  object-fit: contain;
+  display: block;
 }
 
 /* Search Bar in Header */
@@ -170,19 +165,8 @@ body {
 .tli-header-right {
   display: flex;
   align-items: center;
-  gap: 12px;
-  min-width: 150px;
   justify-content: flex-end;
-}
-
-.tli-stat-badge {
-  font-size: 12px;
-  font-weight: 700;
-  color: var(--tli-yellow);
-  background: rgba(255, 255, 255, 0.12);
-  border: 1px solid rgba(254, 207, 65, 0.3);
-  padding: 6px 12px;
-  border-radius: var(--radius-pill);
+  min-width: 60px;
 }
 
 /* ============================================================
@@ -706,10 +690,17 @@ body {
 
 @media (max-width: 768px) {
   .tli-header {
-    padding: 0 14px;
+    padding: 0 12px;
   }
   .tli-header-left {
     min-width: auto;
+  }
+  .tli-logo-link {
+    padding: 2px 6px;
+    height: 38px;
+  }
+  .tli-logo-img {
+    height: 30px;
   }
   .tli-header-right {
     display: none;

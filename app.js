@@ -25,7 +25,6 @@
   const videoGrid = document.getElementById('tli-video-grid');
   const emptyState = document.getElementById('tli-empty-state');
   const gridCount = document.getElementById('tli-grid-count');
-  const statBadge = document.getElementById('tli-stat-badge');
   const logoLink = document.getElementById('tli-logo-link');
 
   // Watch View Elements
@@ -83,9 +82,7 @@
   }
 
   function updateStats() {
-    if (statBadge) {
-      statBadge.textContent = `⭐ ${completedSet.size} Model Selesai`;
-    }
+    // Model Selesai counter removed per request
   }
 
   // 3. Alphabet Quick-Bar
