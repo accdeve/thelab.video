@@ -2,7 +2,7 @@
   "name": "The Lab • Video Belajar",
   "short_name": "TheLab Video",
   "description": "Katalog Video Panduan LEGO Spike & Robotika The Lab Indonesia",
-  "start_url": "./index.html",
+  "start_url": "./",
   "scope": "./",
   "id": "thelab-video-hub-pwa",
   "display": "standalone",
@@ -15,13 +15,25 @@
       "src": "icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
     },
     {
       "src": "icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }

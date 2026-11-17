@@ -1,7 +1,7 @@
-const CACHE_NAME = 'thelab-video-v3';
+const CACHE_NAME = 'thelab-video-v4';
+
 const ASSETS_TO_CACHE = [
   './',
-  './index.html',
   './styles.css',
   './app.js',
   './videos-data.js',
@@ -13,14 +13,27 @@ const ASSETS_TO_CACHE = [
   './icons/icon-512.png'
 ];
 
+// Install: Simpan file inti secara aman (toleran terhadap redirect Vercel)
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(ASSETS_TO_CACHE);
+    caches.open(CACHE_NAME).then(async (cache) => {
+      await Promise.allSettled(
+        ASSETS_TO_CACHE.map(async (url) => {
+          try {
+            const res = await fetch(url, { redirect: 'follow' });
+            if (res.ok) {
+              await cache.put(url, res);
+            }
+          } catch (e) {
+            console.warn('[SW] Lewati cache:', url, e);
+          }
+        })
+      );
     }).then(() => self.skipWaiting())
   );
 });
 
+// Activate: Bersihkan cache lama
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((keys) => {
@@ -35,23 +48,30 @@ self.addEventListener('activate', (event) => {
   );
 });
 
+// Fetch: Tangani hanya request Same-Origin agar YouTube & CDN tidak terganggu
 self.addEventListener('fetch', (event) => {
-  if (event.request.method !== 'GET' || !event.request.url.startsWith('http')) {
+  if (event.request.method !== 'GET') {
     return;
   }
 
-  // Khusus streaming video YouTube atau thumbnail remote, gunakan network
-  if (event.request.url.includes('ytimg.com') || event.request.url.includes('youtube.com')) {
+  // Lewatkan semua request ke domain luar (YouTube, Google Fonts, CDN)
+  try {
+    const requestUrl = new URL(event.request.url);
+    if (requestUrl.origin !== self.location.origin) {
+      return;
+    }
+  } catch (e) {
     return;
   }
 
+  // Cache-First untuk aset lokal dengan fallback ke network
   event.respondWith(
     caches.match(event.request).then((cachedResponse) => {
       if (cachedResponse) {
         return cachedResponse;
       }
       return fetch(event.request).then((networkResponse) => {
-        if (!networkResponse || networkResponse.status !== 200 || networkResponse.type !== 'basic') {
+        if (!networkResponse || !networkResponse.ok) {
           return networkResponse;
         }
         const responseToCache = networkResponse.clone();
@@ -60,7 +80,10 @@ self.addEventListener('fetch', (event) => {
         });
         return networkResponse;
       }).catch(() => {
-        return caches.match('./index.html');
+        // Fallback untuk navigasi halaman jika offline
+        if (event.request.mode === 'navigate') {
+          return caches.match('./') || caches.match('./index.html');
+        }
       });
     })
   );

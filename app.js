@@ -347,8 +347,13 @@
   }
 
   // PWA Service Worker
-  if ('serviceWorker' in navigator && window.location.protocol.startsWith('http')) {
-    navigator.serviceWorker.register('./sw.js').catch(() => {});
+  if ('serviceWorker' in navigator && (window.location.protocol.startsWith('http') || window.location.hostname === 'localhost')) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker
+        .register('./sw.js')
+        .then((reg) => console.log('The Lab PWA Service Worker Registered:', reg.scope))
+        .catch((err) => console.warn('SW registration info:', err));
+    });
   }
 
   // Run
