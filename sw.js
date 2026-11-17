@@ -79,10 +79,12 @@ self.addEventListener('fetch', (event) => {
           cache.put(event.request, responseToCache);
         });
         return networkResponse;
-      }).catch(() => {
+      }).catch(async () => {
         // Fallback untuk navigasi halaman jika offline
         if (event.request.mode === 'navigate') {
-          return caches.match('./') || caches.match('./index.html');
+          const cached = await caches.match('./');
+          if (cached) return cached;
+          return caches.match('./index.html');
         }
       });
     })
