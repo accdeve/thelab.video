@@ -9,7 +9,7 @@
   // Global State
   let allVideos = [];
   let completedSet = new Set();
-  let currentProgram = 'all';
+  let currentProgram = 'spike-kinder';
   let currentLetter = 'ALL';
   let searchQuery = '';
   let activeVideo = null;
@@ -88,7 +88,11 @@
   // 3. Alphabet Quick-Bar
   function buildAlphabetRow() {
     const letters = new Set();
-    allVideos.forEach((v) => {
+    const pool = currentProgram === 'all' 
+      ? allVideos 
+      : allVideos.filter((v) => v.program_id === currentProgram);
+
+    pool.forEach((v) => {
       if (v.first_letter && /[A-Z]/.test(v.first_letter)) {
         letters.add(v.first_letter);
       }
@@ -292,14 +296,15 @@
       e.preventDefault();
       searchInput.value = '';
       searchQuery = '';
-      currentProgram = 'all';
+      currentProgram = 'spike-kinder';
       currentLetter = 'ALL';
       searchClear.style.display = 'none';
 
       programTabs.querySelectorAll('.tli-tab-btn').forEach((c) => c.classList.remove('active'));
-      programTabs.querySelector('[data-program="all"]').classList.add('active');
+      const defaultTab = programTabs.querySelector('[data-program="spike-kinder"]');
+      if (defaultTab) defaultTab.classList.add('active');
 
-      updateAlphabetButtons();
+      buildAlphabetRow();
       switchToHome();
       applyFilters();
     });
@@ -331,6 +336,8 @@
         programTabs.querySelectorAll('.tli-tab-btn').forEach((t) => t.classList.remove('active'));
         tab.classList.add('active');
         currentProgram = tab.getAttribute('data-program');
+        currentLetter = 'ALL';
+        buildAlphabetRow();
         if (watchView.classList.contains('active')) {
           switchToHome();
         }
