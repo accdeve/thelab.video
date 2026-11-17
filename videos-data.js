@@ -6,11 +6,12 @@ var VIDEOS_DATA = [
     "program_color": "#FECF41",
     "program_age": "Usia 5–7 Tahun",
     "original_title": "K Tricycle Spike Kinder",
-    "clean_title": "Tricycle",
+    "clean_title": "Spike Tricycle",
     "first_letter": "T",
     "category": "kendaraan",
     "category_label": "🚗 Kendaraan",
-    "thumbnail": "https://i.ytimg.com/vi/XMSEjX_MqRs/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/XMSEjX_MqRs/hqdefault.jpg",
+    "model_name": "Tricycle"
   },
   {
     "id": "48WRqOwqs8Q",
@@ -19,11 +20,12 @@ var VIDEOS_DATA = [
     "program_color": "#FECF41",
     "program_age": "Usia 5–7 Tahun",
     "original_title": "K Gun Spike Kinder",
-    "clean_title": "Gun",
+    "clean_title": "Spike Gun",
     "first_letter": "G",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/48WRqOwqs8Q/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/48WRqOwqs8Q/hqdefault.jpg",
+    "model_name": "Gun"
   },
   {
     "id": "vUyOEwfT60E",
@@ -32,11 +34,12 @@ var VIDEOS_DATA = [
     "program_color": "#FECF41",
     "program_age": "Usia 5–7 Tahun",
     "original_title": "K Gear System Spike Kinder",
-    "clean_title": "Gear System",
+    "clean_title": "Spike Gear System",
     "first_letter": "G",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/vUyOEwfT60E/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/vUyOEwfT60E/hqdefault.jpg",
+    "model_name": "Gear System"
   },
   {
     "id": "cUnRUv7ymE4",
@@ -45,11 +48,12 @@ var VIDEOS_DATA = [
     "program_color": "#FECF41",
     "program_age": "Usia 5–7 Tahun",
     "original_title": "K Fishing Rod Spike Kinder",
-    "clean_title": "Fishing Rod",
+    "clean_title": "Spike Fishing Rod",
     "first_letter": "F",
     "category": "hewan",
     "category_label": "🐾 Hewan",
-    "thumbnail": "https://i.ytimg.com/vi/cUnRUv7ymE4/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/cUnRUv7ymE4/hqdefault.jpg",
+    "model_name": "Fishing Rod"
   },
   {
     "id": "NYrs7oe4PXY",
@@ -58,11 +62,12 @@ var VIDEOS_DATA = [
     "program_color": "#FECF41",
     "program_age": "Usia 5–7 Tahun",
     "original_title": "K Camera Spike Kinder",
-    "clean_title": "Camera",
+    "clean_title": "Spike Camera",
     "first_letter": "C",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/NYrs7oe4PXY/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/NYrs7oe4PXY/hqdefault.jpg",
+    "model_name": "Camera"
   },
   {
     "id": "6whleHXQbss",
@@ -71,11 +76,12 @@ var VIDEOS_DATA = [
     "program_color": "#FECF41",
     "program_age": "Usia 5–7 Tahun",
     "original_title": "K Bird Spike Kinder",
-    "clean_title": "Bird",
+    "clean_title": "Spike Bird",
     "first_letter": "B",
     "category": "hewan",
     "category_label": "🐾 Hewan",
-    "thumbnail": "https://i.ytimg.com/vi/6whleHXQbss/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/6whleHXQbss/hqdefault.jpg",
+    "model_name": "Bird"
   },
   {
     "id": "HWBWQ2FwkGU",
@@ -84,11 +90,12 @@ var VIDEOS_DATA = [
     "program_color": "#FECF41",
     "program_age": "Usia 5–7 Tahun",
     "original_title": "K Crocodile Spike Kinder",
-    "clean_title": "Crocodile",
+    "clean_title": "Spike Crocodile",
     "first_letter": "C",
     "category": "hewan",
     "category_label": "🐾 Hewan",
-    "thumbnail": "https://i.ytimg.com/vi/HWBWQ2FwkGU/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/HWBWQ2FwkGU/hqdefault.jpg",
+    "model_name": "Crocodile"
   },
   {
     "id": "tulvjL_Pcm8",
@@ -97,11 +104,12 @@ var VIDEOS_DATA = [
     "program_color": "#FECF41",
     "program_age": "Usia 5–7 Tahun",
     "original_title": "K Robot Cat Spike Kinder",
-    "clean_title": "Robot Cat",
+    "clean_title": "Spike Robot Cat",
     "first_letter": "R",
     "category": "hewan",
     "category_label": "🐾 Hewan",
-    "thumbnail": "https://i.ytimg.com/vi/tulvjL_Pcm8/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/tulvjL_Pcm8/hqdefault.jpg",
+    "model_name": "Robot Cat"
   },
   {
     "id": "XqQ-SJkSayU",
@@ -110,11 +118,12 @@ var VIDEOS_DATA = [
     "program_color": "#FECF41",
     "program_age": "Usia 5–7 Tahun",
     "original_title": "K Ecloid Spike Kinder",
-    "clean_title": "Ecloid",
+    "clean_title": "Spike Ecloid",
     "first_letter": "E",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/XqQ-SJkSayU/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/XqQ-SJkSayU/hqdefault.jpg",
+    "model_name": "Ecloid"
   },
   {
     "id": "L0BcJH3Z0dU",
@@ -123,11 +132,12 @@ var VIDEOS_DATA = [
     "program_color": "#FECF41",
     "program_age": "Usia 5–7 Tahun",
     "original_title": "K Light Intensity Car Spike Kinder",
-    "clean_title": "Light Intensity Car",
+    "clean_title": "Spike Light Intensity Car",
     "first_letter": "L",
     "category": "kendaraan",
     "category_label": "🚗 Kendaraan",
-    "thumbnail": "https://i.ytimg.com/vi/L0BcJH3Z0dU/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/L0BcJH3Z0dU/hqdefault.jpg",
+    "model_name": "Light Intensity Car"
   },
   {
     "id": "8L7NiWgtadM",
@@ -136,11 +146,12 @@ var VIDEOS_DATA = [
     "program_color": "#FECF41",
     "program_age": "Usia 5–7 Tahun",
     "original_title": "K Terminator Spike Kinder",
-    "clean_title": "Terminator",
+    "clean_title": "Spike Terminator",
     "first_letter": "T",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/8L7NiWgtadM/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/8L7NiWgtadM/hqdefault.jpg",
+    "model_name": "Terminator"
   },
   {
     "id": "xcGJNZNa-Q8",
@@ -149,11 +160,12 @@ var VIDEOS_DATA = [
     "program_color": "#FECF41",
     "program_age": "Usia 5–7 Tahun",
     "original_title": "K Tank Spike Kinder",
-    "clean_title": "Tank",
+    "clean_title": "Spike Tank",
     "first_letter": "T",
     "category": "kendaraan",
     "category_label": "🚗 Kendaraan",
-    "thumbnail": "https://i.ytimg.com/vi/xcGJNZNa-Q8/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/xcGJNZNa-Q8/hqdefault.jpg",
+    "model_name": "Tank"
   },
   {
     "id": "y0ICz3cFNE0",
@@ -162,11 +174,12 @@ var VIDEOS_DATA = [
     "program_color": "#FECF41",
     "program_age": "Usia 5–7 Tahun",
     "original_title": "K Mig Robot Spike Kinder",
-    "clean_title": "Mig Robot",
+    "clean_title": "Spike Mig Robot",
     "first_letter": "M",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/y0ICz3cFNE0/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/y0ICz3cFNE0/hqdefault.jpg",
+    "model_name": "Mig Robot"
   },
   {
     "id": "bk64B7oXyos",
@@ -175,11 +188,12 @@ var VIDEOS_DATA = [
     "program_color": "#FECF41",
     "program_age": "Usia 5–7 Tahun",
     "original_title": "K Andy Roid Spike Kinder",
-    "clean_title": "Andy Roid",
+    "clean_title": "Spike Andy Roid",
     "first_letter": "A",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/bk64B7oXyos/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/bk64B7oXyos/hqdefault.jpg",
+    "model_name": "Andy Roid"
   },
   {
     "id": "Bqt0uMKYc-8",
@@ -188,11 +202,12 @@ var VIDEOS_DATA = [
     "program_color": "#FECF41",
     "program_age": "Usia 5–7 Tahun",
     "original_title": "K Wheel of Fortune Spike Kinder",
-    "clean_title": "Wheel of Fortune",
+    "clean_title": "Spike Wheel of Fortune",
     "first_letter": "W",
     "category": "kendaraan",
     "category_label": "🚗 Kendaraan",
-    "thumbnail": "https://i.ytimg.com/vi/Bqt0uMKYc-8/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/Bqt0uMKYc-8/hqdefault.jpg",
+    "model_name": "Wheel of Fortune"
   },
   {
     "id": "QDn4-GoE9a0",
@@ -201,11 +216,12 @@ var VIDEOS_DATA = [
     "program_color": "#FECF41",
     "program_age": "Usia 5–7 Tahun",
     "original_title": "K Grabber Spike Kinder",
-    "clean_title": "Grabber",
+    "clean_title": "Spike Grabber",
     "first_letter": "G",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/QDn4-GoE9a0/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/QDn4-GoE9a0/hqdefault.jpg",
+    "model_name": "Grabber"
   },
   {
     "id": "bCHrc0l7akI",
@@ -214,11 +230,12 @@ var VIDEOS_DATA = [
     "program_color": "#FECF41",
     "program_age": "Usia 5–7 Tahun",
     "original_title": "K Door Spike Kinder",
-    "clean_title": "Door",
+    "clean_title": "Spike Door",
     "first_letter": "D",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/bCHrc0l7akI/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/bCHrc0l7akI/hqdefault.jpg",
+    "model_name": "Door"
   },
   {
     "id": "XzdFZiLefnU",
@@ -227,11 +244,12 @@ var VIDEOS_DATA = [
     "program_color": "#FECF41",
     "program_age": "Usia 5–7 Tahun",
     "original_title": "K Racing Car Spike Kinder",
-    "clean_title": "Racing Car",
+    "clean_title": "Spike Racing Car",
     "first_letter": "R",
     "category": "kendaraan",
     "category_label": "🚗 Kendaraan",
-    "thumbnail": "https://i.ytimg.com/vi/XzdFZiLefnU/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/XzdFZiLefnU/hqdefault.jpg",
+    "model_name": "Racing Car"
   },
   {
     "id": "Uv5HU0jOrO4",
@@ -240,11 +258,12 @@ var VIDEOS_DATA = [
     "program_color": "#FECF41",
     "program_age": "Usia 5–7 Tahun",
     "original_title": "K Symmetry Spike Kinder",
-    "clean_title": "Symmetry",
+    "clean_title": "Spike Symmetry",
     "first_letter": "S",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/Uv5HU0jOrO4/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/Uv5HU0jOrO4/hqdefault.jpg",
+    "model_name": "Symmetry"
   },
   {
     "id": "s8W84LujA5w",
@@ -253,11 +272,12 @@ var VIDEOS_DATA = [
     "program_color": "#FECF41",
     "program_age": "Usia 5–7 Tahun",
     "original_title": "K Dancer Spike Kinder",
-    "clean_title": "Dancer",
+    "clean_title": "Spike Dancer",
     "first_letter": "D",
     "category": "game",
     "category_label": "🎮 Game & Fun",
-    "thumbnail": "https://i.ytimg.com/vi/s8W84LujA5w/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/s8W84LujA5w/hqdefault.jpg",
+    "model_name": "Dancer"
   },
   {
     "id": "RWJc368GPQw",
@@ -266,11 +286,12 @@ var VIDEOS_DATA = [
     "program_color": "#FECF41",
     "program_age": "Usia 5–7 Tahun",
     "original_title": "K Mouse Spike Kinder",
-    "clean_title": "Mouse",
+    "clean_title": "Spike Mouse",
     "first_letter": "M",
     "category": "hewan",
     "category_label": "🐾 Hewan",
-    "thumbnail": "https://i.ytimg.com/vi/RWJc368GPQw/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/RWJc368GPQw/hqdefault.jpg",
+    "model_name": "Mouse"
   },
   {
     "id": "LwNbi_HHFFo",
@@ -279,11 +300,12 @@ var VIDEOS_DATA = [
     "program_color": "#FECF41",
     "program_age": "Usia 5–7 Tahun",
     "original_title": "K Jet Spike Kinder",
-    "clean_title": "Jet",
+    "clean_title": "Spike Jet",
     "first_letter": "J",
     "category": "kendaraan",
     "category_label": "🚗 Kendaraan",
-    "thumbnail": "https://i.ytimg.com/vi/LwNbi_HHFFo/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/LwNbi_HHFFo/hqdefault.jpg",
+    "model_name": "Jet"
   },
   {
     "id": "eSkbuYYpDgY",
@@ -292,11 +314,12 @@ var VIDEOS_DATA = [
     "program_color": "#FECF41",
     "program_age": "Usia 5–7 Tahun",
     "original_title": "K Egg Spinner Spike Kinder",
-    "clean_title": "Egg Spinner",
+    "clean_title": "Spike Egg Spinner",
     "first_letter": "E",
     "category": "game",
     "category_label": "🎮 Game & Fun",
-    "thumbnail": "https://i.ytimg.com/vi/eSkbuYYpDgY/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/eSkbuYYpDgY/hqdefault.jpg",
+    "model_name": "Egg Spinner"
   },
   {
     "id": "tudxpvw0IAg",
@@ -305,11 +328,12 @@ var VIDEOS_DATA = [
     "program_color": "#FECF41",
     "program_age": "Usia 5–7 Tahun",
     "original_title": "K Windmill Spike Kinder",
-    "clean_title": "Windmill",
+    "clean_title": "Spike Windmill",
     "first_letter": "W",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/tudxpvw0IAg/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/tudxpvw0IAg/hqdefault.jpg",
+    "model_name": "Windmill"
   },
   {
     "id": "NgxN1t6L588",
@@ -318,11 +342,12 @@ var VIDEOS_DATA = [
     "program_color": "#FECF41",
     "program_age": "Usia 5–7 Tahun",
     "original_title": "KF Shark Origami Kinder Foundation",
-    "clean_title": "Shark Origami",
+    "clean_title": "Spike Shark Origami",
     "first_letter": "S",
     "category": "hewan",
     "category_label": "🐾 Hewan",
-    "thumbnail": "https://i.ytimg.com/vi/NgxN1t6L588/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/NgxN1t6L588/hqdefault.jpg",
+    "model_name": "Shark Origami"
   },
   {
     "id": "KXQ6IiT2jrE",
@@ -331,11 +356,12 @@ var VIDEOS_DATA = [
     "program_color": "#FECF41",
     "program_age": "Usia 5–7 Tahun",
     "original_title": "K Robot Car Spike Kinder",
-    "clean_title": "Robot Car",
+    "clean_title": "Spike Robot Car",
     "first_letter": "R",
     "category": "kendaraan",
     "category_label": "🚗 Kendaraan",
-    "thumbnail": "https://i.ytimg.com/vi/KXQ6IiT2jrE/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/KXQ6IiT2jrE/hqdefault.jpg",
+    "model_name": "Robot Car"
   },
   {
     "id": "cQl9Ouk4EhM",
@@ -344,11 +370,12 @@ var VIDEOS_DATA = [
     "program_color": "#FECF41",
     "program_age": "Usia 5–7 Tahun",
     "original_title": "K Penguin Spike Kinder",
-    "clean_title": "Penguin",
+    "clean_title": "Spike Penguin",
     "first_letter": "P",
     "category": "hewan",
     "category_label": "🐾 Hewan",
-    "thumbnail": "https://i.ytimg.com/vi/cQl9Ouk4EhM/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/cQl9Ouk4EhM/hqdefault.jpg",
+    "model_name": "Penguin"
   },
   {
     "id": "xVo46bO50r4",
@@ -357,11 +384,12 @@ var VIDEOS_DATA = [
     "program_color": "#FECF41",
     "program_age": "Usia 5–7 Tahun",
     "original_title": "K One Arm Robot Spike Kinder",
-    "clean_title": "One Arm Robot",
+    "clean_title": "Spike One Arm Robot",
     "first_letter": "O",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/xVo46bO50r4/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/xVo46bO50r4/hqdefault.jpg",
+    "model_name": "One Arm Robot"
   },
   {
     "id": "wglvkEX-u7M",
@@ -370,11 +398,12 @@ var VIDEOS_DATA = [
     "program_color": "#00BDCD",
     "program_age": "Foundation",
     "original_title": "JF Grabber Spike Foundation",
-    "clean_title": "Grabber",
+    "clean_title": "Spike Grabber",
     "first_letter": "G",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/wglvkEX-u7M/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/wglvkEX-u7M/hqdefault.jpg",
+    "model_name": "Grabber"
   },
   {
     "id": "np_u8KuVmhM",
@@ -383,11 +412,12 @@ var VIDEOS_DATA = [
     "program_color": "#00BDCD",
     "program_age": "Foundation",
     "original_title": "JF Spinning Machine Spike Foundation",
-    "clean_title": "Spinning Machine",
+    "clean_title": "Spike Spinning Machine",
     "first_letter": "S",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/np_u8KuVmhM/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/np_u8KuVmhM/hqdefault.jpg",
+    "model_name": "Spinning Machine"
   },
   {
     "id": "5gC3CgepLsg",
@@ -396,11 +426,12 @@ var VIDEOS_DATA = [
     "program_color": "#00BDCD",
     "program_age": "Foundation",
     "original_title": "JF Van Spike Foundation",
-    "clean_title": "Van",
+    "clean_title": "Spike Van",
     "first_letter": "V",
     "category": "kendaraan",
     "category_label": "🚗 Kendaraan",
-    "thumbnail": "https://i.ytimg.com/vi/5gC3CgepLsg/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/5gC3CgepLsg/hqdefault.jpg",
+    "model_name": "Van"
   },
   {
     "id": "JAeGfiV2Tp4",
@@ -409,11 +440,12 @@ var VIDEOS_DATA = [
     "program_color": "#00BDCD",
     "program_age": "Foundation",
     "original_title": "JF Scorpion Spike Foundation",
-    "clean_title": "Scorpion",
+    "clean_title": "Spike Scorpion",
     "first_letter": "S",
     "category": "hewan",
     "category_label": "🐾 Hewan",
-    "thumbnail": "https://i.ytimg.com/vi/JAeGfiV2Tp4/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/JAeGfiV2Tp4/hqdefault.jpg",
+    "model_name": "Scorpion"
   },
   {
     "id": "JQHFXWG_riw",
@@ -422,11 +454,12 @@ var VIDEOS_DATA = [
     "program_color": "#00BDCD",
     "program_age": "Foundation",
     "original_title": "JF Music Maker Spike Foundation",
-    "clean_title": "Music Maker",
+    "clean_title": "Spike Music Maker",
     "first_letter": "M",
     "category": "game",
     "category_label": "🎮 Game & Fun",
-    "thumbnail": "https://i.ytimg.com/vi/JQHFXWG_riw/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/JQHFXWG_riw/hqdefault.jpg",
+    "model_name": "Music Maker"
   },
   {
     "id": "dsCtf3ybI08",
@@ -435,11 +468,12 @@ var VIDEOS_DATA = [
     "program_color": "#00BDCD",
     "program_age": "Foundation",
     "original_title": "JF Racing Car Spike Foundation",
-    "clean_title": "Racing Car",
+    "clean_title": "Spike Racing Car",
     "first_letter": "R",
     "category": "kendaraan",
     "category_label": "🚗 Kendaraan",
-    "thumbnail": "https://i.ytimg.com/vi/dsCtf3ybI08/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/dsCtf3ybI08/hqdefault.jpg",
+    "model_name": "Racing Car"
   },
   {
     "id": "DwNIEm0cKVk",
@@ -448,11 +482,12 @@ var VIDEOS_DATA = [
     "program_color": "#00BDCD",
     "program_age": "Foundation",
     "original_title": "JF Transformer Spike Foundation",
-    "clean_title": "Transformer",
+    "clean_title": "Spike Transformer",
     "first_letter": "T",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/DwNIEm0cKVk/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/DwNIEm0cKVk/hqdefault.jpg",
+    "model_name": "Transformer"
   },
   {
     "id": "jaro42fdeVY",
@@ -461,11 +496,12 @@ var VIDEOS_DATA = [
     "program_color": "#00BDCD",
     "program_age": "Foundation",
     "original_title": "JF Sit Up Man Spike Foundation",
-    "clean_title": "Sit Up Man",
+    "clean_title": "Spike Sit Up Man",
     "first_letter": "S",
     "category": "game",
     "category_label": "🎮 Game & Fun",
-    "thumbnail": "https://i.ytimg.com/vi/jaro42fdeVY/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/jaro42fdeVY/hqdefault.jpg",
+    "model_name": "Sit Up Man"
   },
   {
     "id": "mFFf4n9NCSI",
@@ -474,11 +510,12 @@ var VIDEOS_DATA = [
     "program_color": "#00BDCD",
     "program_age": "Foundation",
     "original_title": "JF Frog Spike Foundation",
-    "clean_title": "Frog",
+    "clean_title": "Spike Frog",
     "first_letter": "F",
     "category": "hewan",
     "category_label": "🐾 Hewan",
-    "thumbnail": "https://i.ytimg.com/vi/mFFf4n9NCSI/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/mFFf4n9NCSI/hqdefault.jpg",
+    "model_name": "Frog"
   },
   {
     "id": "_9uKLXcIJR8",
@@ -487,11 +524,12 @@ var VIDEOS_DATA = [
     "program_color": "#00BDCD",
     "program_age": "Foundation",
     "original_title": "JF Printer Spike Foundation",
-    "clean_title": "Printer",
+    "clean_title": "Spike Printer",
     "first_letter": "P",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/_9uKLXcIJR8/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/_9uKLXcIJR8/hqdefault.jpg",
+    "model_name": "Printer"
   },
   {
     "id": "ve1PwCfCiM8",
@@ -500,11 +538,12 @@ var VIDEOS_DATA = [
     "program_color": "#00BDCD",
     "program_age": "Foundation",
     "original_title": "JF Flipping Fish Spike Foundation",
-    "clean_title": "Flipping Fish",
+    "clean_title": "Spike Flipping Fish",
     "first_letter": "F",
     "category": "hewan",
     "category_label": "🐾 Hewan",
-    "thumbnail": "https://i.ytimg.com/vi/ve1PwCfCiM8/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/ve1PwCfCiM8/hqdefault.jpg",
+    "model_name": "Flipping Fish"
   },
   {
     "id": "MEMcJ-ZTtzw",
@@ -513,11 +552,12 @@ var VIDEOS_DATA = [
     "program_color": "#00BDCD",
     "program_age": "Foundation",
     "original_title": "JF Wheelchair Robot Spike Foundation",
-    "clean_title": "Wheelchair Robot",
+    "clean_title": "Spike Wheelchair Robot",
     "first_letter": "W",
     "category": "kendaraan",
     "category_label": "🚗 Kendaraan",
-    "thumbnail": "https://i.ytimg.com/vi/MEMcJ-ZTtzw/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/MEMcJ-ZTtzw/hqdefault.jpg",
+    "model_name": "Wheelchair Robot"
   },
   {
     "id": "dIYk522ZqBY",
@@ -526,11 +566,12 @@ var VIDEOS_DATA = [
     "program_color": "#00BDCD",
     "program_age": "Foundation",
     "original_title": "JF Rowing Machine Spike Foundation",
-    "clean_title": "Rowing Machine",
+    "clean_title": "Spike Rowing Machine",
     "first_letter": "R",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/dIYk522ZqBY/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/dIYk522ZqBY/hqdefault.jpg",
+    "model_name": "Rowing Machine"
   },
   {
     "id": "ApnSD613Yt8",
@@ -539,11 +580,12 @@ var VIDEOS_DATA = [
     "program_color": "#00BDCD",
     "program_age": "Foundation",
     "original_title": "JF Drop Tower Spike Foundation",
-    "clean_title": "Drop Tower",
+    "clean_title": "Spike Drop Tower",
     "first_letter": "D",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/ApnSD613Yt8/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/ApnSD613Yt8/hqdefault.jpg",
+    "model_name": "Drop Tower"
   },
   {
     "id": "GXW4SjVD-E0",
@@ -552,11 +594,12 @@ var VIDEOS_DATA = [
     "program_color": "#00BDCD",
     "program_age": "Foundation",
     "original_title": "JF Hopper Spike Foundation",
-    "clean_title": "Hopper",
+    "clean_title": "Spike Hopper",
     "first_letter": "H",
     "category": "kendaraan",
     "category_label": "🚗 Kendaraan",
-    "thumbnail": "https://i.ytimg.com/vi/GXW4SjVD-E0/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/GXW4SjVD-E0/hqdefault.jpg",
+    "model_name": "Hopper"
   },
   {
     "id": "ZNUwAye_GI0",
@@ -565,11 +608,12 @@ var VIDEOS_DATA = [
     "program_color": "#00BDCD",
     "program_age": "Foundation",
     "original_title": "JF Spinning Top Spike Foundation",
-    "clean_title": "Spinning Top",
+    "clean_title": "Spike Spinning Top",
     "first_letter": "S",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/ZNUwAye_GI0/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/ZNUwAye_GI0/hqdefault.jpg",
+    "model_name": "Spinning Top"
   },
   {
     "id": "wN2E7CRyRxI",
@@ -578,11 +622,12 @@ var VIDEOS_DATA = [
     "program_color": "#00BDCD",
     "program_age": "Foundation",
     "original_title": "JF Spinning Machine Spike Foundation",
-    "clean_title": "Spinning Machine",
+    "clean_title": "Spike Spinning Machine",
     "first_letter": "S",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/wN2E7CRyRxI/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/wN2E7CRyRxI/hqdefault.jpg",
+    "model_name": "Spinning Machine"
   },
   {
     "id": "1w2WORpW2_w",
@@ -591,11 +636,12 @@ var VIDEOS_DATA = [
     "program_color": "#00BDCD",
     "program_age": "Foundation",
     "original_title": "JF Sliding Door Spike Foundation",
-    "clean_title": "Sliding Door",
+    "clean_title": "Spike Sliding Door",
     "first_letter": "S",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/1w2WORpW2_w/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/1w2WORpW2_w/hqdefault.jpg",
+    "model_name": "Sliding Door"
   },
   {
     "id": "cxcIwkMw8p8",
@@ -604,11 +650,12 @@ var VIDEOS_DATA = [
     "program_color": "#00BDCD",
     "program_age": "Foundation",
     "original_title": "JF Basketball Spike Foundation",
-    "clean_title": "Basketball",
+    "clean_title": "Spike Basketball",
     "first_letter": "B",
     "category": "game",
     "category_label": "🎮 Game & Fun",
-    "thumbnail": "https://i.ytimg.com/vi/cxcIwkMw8p8/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/cxcIwkMw8p8/hqdefault.jpg",
+    "model_name": "Basketball"
   },
   {
     "id": "JY8Tnb2LOXo",
@@ -617,11 +664,12 @@ var VIDEOS_DATA = [
     "program_color": "#00BDCD",
     "program_age": "Foundation",
     "original_title": "JF Goalkeeper Spike Foundation",
-    "clean_title": "Goalkeeper",
+    "clean_title": "Spike Goalkeeper",
     "first_letter": "G",
     "category": "game",
     "category_label": "🎮 Game & Fun",
-    "thumbnail": "https://i.ytimg.com/vi/JY8Tnb2LOXo/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/JY8Tnb2LOXo/hqdefault.jpg",
+    "model_name": "Goalkeeper"
   },
   {
     "id": "WALq5Mx6Qho",
@@ -630,11 +678,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Base Robot Spike Junior",
-    "clean_title": "Base Robot",
+    "clean_title": "Spike Base Robot",
     "first_letter": "B",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/WALq5Mx6Qho/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/WALq5Mx6Qho/hqdefault.jpg",
+    "model_name": "Base Robot"
   },
   {
     "id": "aGrcmN723No",
@@ -643,11 +692,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Rhino Spike Junior",
-    "clean_title": "Rhino",
+    "clean_title": "Spike Rhino",
     "first_letter": "R",
     "category": "hewan",
     "category_label": "🐾 Hewan",
-    "thumbnail": "https://i.ytimg.com/vi/aGrcmN723No/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/aGrcmN723No/hqdefault.jpg",
+    "model_name": "Rhino"
   },
   {
     "id": "E_RsqGfpE7k",
@@ -656,11 +706,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Weathercaster Spike Junior",
-    "clean_title": "Weathercaster",
+    "clean_title": "Spike Weathercaster",
     "first_letter": "W",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/E_RsqGfpE7k/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/E_RsqGfpE7k/hqdefault.jpg",
+    "model_name": "Weathercaster"
   },
   {
     "id": "WgwJMkUF27w",
@@ -669,11 +720,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Jackpot Spike Junior",
-    "clean_title": "Jackpot",
+    "clean_title": "Spike Jackpot",
     "first_letter": "J",
     "category": "game",
     "category_label": "🎮 Game & Fun",
-    "thumbnail": "https://i.ytimg.com/vi/WgwJMkUF27w/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/WgwJMkUF27w/hqdefault.jpg",
+    "model_name": "Jackpot"
   },
   {
     "id": "ipRqX2jGUTA",
@@ -682,11 +734,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Hand Biting Robot Spike Junior",
-    "clean_title": "Hand Biting Robot",
+    "clean_title": "Spike Hand Biting Robot",
     "first_letter": "H",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/ipRqX2jGUTA/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/ipRqX2jGUTA/hqdefault.jpg",
+    "model_name": "Hand Biting Robot"
   },
   {
     "id": "zJdlh9EhD8I",
@@ -695,11 +748,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Gun Spike Junior",
-    "clean_title": "Gun",
+    "clean_title": "Spike Gun",
     "first_letter": "G",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/zJdlh9EhD8I/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/zJdlh9EhD8I/hqdefault.jpg",
+    "model_name": "Gun"
   },
   {
     "id": "dFCGhIQBEII",
@@ -708,11 +762,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Grabber Spike Junior",
-    "clean_title": "Grabber",
+    "clean_title": "Spike Grabber",
     "first_letter": "G",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/dFCGhIQBEII/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/dFCGhIQBEII/hqdefault.jpg",
+    "model_name": "Grabber"
   },
   {
     "id": "k0J38S3QORw",
@@ -721,11 +776,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Color Sensor Car Spike Junior",
-    "clean_title": "Color Sensor Car",
+    "clean_title": "Spike Color Sensor Car",
     "first_letter": "C",
     "category": "kendaraan",
     "category_label": "🚗 Kendaraan",
-    "thumbnail": "https://i.ytimg.com/vi/k0J38S3QORw/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/k0J38S3QORw/hqdefault.jpg",
+    "model_name": "Color Sensor Car"
   },
   {
     "id": "FVYxPyRvezY",
@@ -734,11 +790,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Wally Robot Spike Junior",
-    "clean_title": "Wally Robot",
+    "clean_title": "Spike Wally Robot",
     "first_letter": "W",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/FVYxPyRvezY/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/FVYxPyRvezY/hqdefault.jpg",
+    "model_name": "Wally Robot"
   },
   {
     "id": "R3qZOXNFyhg",
@@ -747,11 +804,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Gyro Sensor Car Spike Junior",
-    "clean_title": "Gyro Sensor Car",
+    "clean_title": "Spike Gyro Sensor Car",
     "first_letter": "G",
     "category": "kendaraan",
     "category_label": "🚗 Kendaraan",
-    "thumbnail": "https://i.ytimg.com/vi/R3qZOXNFyhg/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/R3qZOXNFyhg/hqdefault.jpg",
+    "model_name": "Gyro Sensor Car"
   },
   {
     "id": "D3Q_tEgwAy0",
@@ -760,11 +818,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Bulldozer Spike Junior",
-    "clean_title": "Bulldozer",
+    "clean_title": "Spike Bulldozer",
     "first_letter": "B",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/D3Q_tEgwAy0/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/D3Q_tEgwAy0/hqdefault.jpg",
+    "model_name": "Bulldozer"
   },
   {
     "id": "YHZKHbHOJMQ",
@@ -773,11 +832,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Penguin Spike Junior",
-    "clean_title": "Penguin",
+    "clean_title": "Spike Penguin",
     "first_letter": "P",
     "category": "hewan",
     "category_label": "🐾 Hewan",
-    "thumbnail": "https://i.ytimg.com/vi/YHZKHbHOJMQ/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/YHZKHbHOJMQ/hqdefault.jpg",
+    "model_name": "Penguin"
   },
   {
     "id": "IFoQClbP_3s",
@@ -786,11 +846,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Scissors Paper Stone Game Spike Junior",
-    "clean_title": "Scissors Paper Stone Game",
+    "clean_title": "Spike Scissors Paper Stone Game",
     "first_letter": "S",
     "category": "game",
     "category_label": "🎮 Game & Fun",
-    "thumbnail": "https://i.ytimg.com/vi/IFoQClbP_3s/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/IFoQClbP_3s/hqdefault.jpg",
+    "model_name": "Scissors Paper Stone Game"
   },
   {
     "id": "DVvKo_iH4VQ",
@@ -799,11 +860,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Samurai Gun Spike Junior",
-    "clean_title": "Samurai Gun",
+    "clean_title": "Spike Samurai Gun",
     "first_letter": "S",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/DVvKo_iH4VQ/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/DVvKo_iH4VQ/hqdefault.jpg",
+    "model_name": "Samurai Gun"
   },
   {
     "id": "MQSv0Nug360",
@@ -812,11 +874,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Catapult Spike Junior",
-    "clean_title": "Catapult",
+    "clean_title": "Spike Catapult",
     "first_letter": "C",
     "category": "hewan",
     "category_label": "🐾 Hewan",
-    "thumbnail": "https://i.ytimg.com/vi/MQSv0Nug360/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/MQSv0Nug360/hqdefault.jpg",
+    "model_name": "Catapult"
   },
   {
     "id": "JGUL6AKg1nA",
@@ -825,11 +888,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Push Up Man Spike Junior",
-    "clean_title": "Push Up Man",
+    "clean_title": "Spike Push Up Man",
     "first_letter": "P",
     "category": "game",
     "category_label": "🎮 Game & Fun",
-    "thumbnail": "https://i.ytimg.com/vi/JGUL6AKg1nA/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/JGUL6AKg1nA/hqdefault.jpg",
+    "model_name": "Push Up Man"
   },
   {
     "id": "y4ejUMaF1qM",
@@ -838,11 +902,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Helicopter Spike Junior",
-    "clean_title": "Helicopter",
+    "clean_title": "Spike Helicopter",
     "first_letter": "H",
     "category": "kendaraan",
     "category_label": "🚗 Kendaraan",
-    "thumbnail": "https://i.ytimg.com/vi/y4ejUMaF1qM/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/y4ejUMaF1qM/hqdefault.jpg",
+    "model_name": "Helicopter"
   },
   {
     "id": "pZk6oKhEgVg",
@@ -851,11 +916,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Bulldozer 2 Spike Junior",
-    "clean_title": "Bulldozer 2",
+    "clean_title": "Spike Bulldozer 2",
     "first_letter": "B",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/pZk6oKhEgVg/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/pZk6oKhEgVg/hqdefault.jpg",
+    "model_name": "Bulldozer 2"
   },
   {
     "id": "M2-2-nNPtH0",
@@ -864,11 +930,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Beyblade Spike Junior",
-    "clean_title": "Beyblade",
+    "clean_title": "Spike Beyblade",
     "first_letter": "B",
     "category": "game",
     "category_label": "🎮 Game & Fun",
-    "thumbnail": "https://i.ytimg.com/vi/M2-2-nNPtH0/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/M2-2-nNPtH0/hqdefault.jpg",
+    "model_name": "Beyblade"
   },
   {
     "id": "Avzr8xsX9xE",
@@ -877,11 +944,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Ultrasonic Car Spike Junior",
-    "clean_title": "Ultrasonic Car",
+    "clean_title": "Spike Ultrasonic Car",
     "first_letter": "U",
     "category": "kendaraan",
     "category_label": "🚗 Kendaraan",
-    "thumbnail": "https://i.ytimg.com/vi/Avzr8xsX9xE/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/Avzr8xsX9xE/hqdefault.jpg",
+    "model_name": "Ultrasonic Car"
   },
   {
     "id": "TD37ZiFH3MU",
@@ -890,11 +958,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Wheel of Fortune Spike Junior",
-    "clean_title": "Wheel of Fortune",
+    "clean_title": "Spike Wheel of Fortune",
     "first_letter": "W",
     "category": "kendaraan",
     "category_label": "🚗 Kendaraan",
-    "thumbnail": "https://i.ytimg.com/vi/TD37ZiFH3MU/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/TD37ZiFH3MU/hqdefault.jpg",
+    "model_name": "Wheel of Fortune"
   },
   {
     "id": "X5c1oNRf7PY",
@@ -903,11 +972,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Dog Car Spike Junior",
-    "clean_title": "Dog Car",
+    "clean_title": "Spike Dog Car",
     "first_letter": "D",
     "category": "hewan",
     "category_label": "🐾 Hewan",
-    "thumbnail": "https://i.ytimg.com/vi/X5c1oNRf7PY/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/X5c1oNRf7PY/hqdefault.jpg",
+    "model_name": "Dog Car"
   },
   {
     "id": "oN0zuJYCQGM",
@@ -916,11 +986,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Base Car Spike Junior",
-    "clean_title": "Base Car",
+    "clean_title": "Spike Base Car",
     "first_letter": "B",
     "category": "kendaraan",
     "category_label": "🚗 Kendaraan",
-    "thumbnail": "https://i.ytimg.com/vi/oN0zuJYCQGM/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/oN0zuJYCQGM/hqdefault.jpg",
+    "model_name": "Base Car"
   },
   {
     "id": "jsmFJQTGTWw",
@@ -929,11 +1000,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Pulley Spike Junior",
-    "clean_title": "Pulley",
+    "clean_title": "Spike Pulley",
     "first_letter": "P",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/jsmFJQTGTWw/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/jsmFJQTGTWw/hqdefault.jpg",
+    "model_name": "Pulley"
   },
   {
     "id": "PWEJGPvAJ-Q",
@@ -942,11 +1014,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Pie Thrower Spike Junior",
-    "clean_title": "Pie Thrower",
+    "clean_title": "Spike Pie Thrower",
     "first_letter": "P",
     "category": "game",
     "category_label": "🎮 Game & Fun",
-    "thumbnail": "https://i.ytimg.com/vi/PWEJGPvAJ-Q/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/PWEJGPvAJ-Q/hqdefault.jpg",
+    "model_name": "Pie Thrower"
   },
   {
     "id": "-ezhtpTzgyw",
@@ -955,11 +1028,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Camera Spike Junior",
-    "clean_title": "Camera",
+    "clean_title": "Spike Camera",
     "first_letter": "C",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/-ezhtpTzgyw/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/-ezhtpTzgyw/hqdefault.jpg",
+    "model_name": "Camera"
   },
   {
     "id": "wvUfx_6AQTc",
@@ -968,11 +1042,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Bike Spike Junior",
-    "clean_title": "Bike",
+    "clean_title": "Spike Bike",
     "first_letter": "B",
     "category": "kendaraan",
     "category_label": "🚗 Kendaraan",
-    "thumbnail": "https://i.ytimg.com/vi/wvUfx_6AQTc/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/wvUfx_6AQTc/hqdefault.jpg",
+    "model_name": "Bike"
   },
   {
     "id": "WpRqEaN4ABM",
@@ -981,11 +1056,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Game Master Spike Junior",
-    "clean_title": "Game Master",
+    "clean_title": "Spike Game Master",
     "first_letter": "G",
     "category": "game",
     "category_label": "🎮 Game & Fun",
-    "thumbnail": "https://i.ytimg.com/vi/WpRqEaN4ABM/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/WpRqEaN4ABM/hqdefault.jpg",
+    "model_name": "Game Master"
   },
   {
     "id": "U_f_xUSl2AA",
@@ -994,11 +1070,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Safe Deposit Spike Junior",
-    "clean_title": "Safe Deposit",
+    "clean_title": "Spike Safe Deposit",
     "first_letter": "S",
     "category": "game",
     "category_label": "🎮 Game & Fun",
-    "thumbnail": "https://i.ytimg.com/vi/U_f_xUSl2AA/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/U_f_xUSl2AA/hqdefault.jpg",
+    "model_name": "Safe Deposit"
   },
   {
     "id": "tYTB39sJ3kE",
@@ -1007,11 +1084,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Bike with Traffic Light Spike Junior",
-    "clean_title": "Bike with Traffic Light",
+    "clean_title": "Spike Bike with Traffic Light",
     "first_letter": "B",
     "category": "kendaraan",
     "category_label": "🚗 Kendaraan",
-    "thumbnail": "https://i.ytimg.com/vi/tYTB39sJ3kE/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/tYTB39sJ3kE/hqdefault.jpg",
+    "model_name": "Bike with Traffic Light"
   },
   {
     "id": "3D0ZcriTe8s",
@@ -1020,11 +1098,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Bug Spike Junior",
-    "clean_title": "Bug",
+    "clean_title": "Spike Bug",
     "first_letter": "B",
     "category": "hewan",
     "category_label": "🐾 Hewan",
-    "thumbnail": "https://i.ytimg.com/vi/3D0ZcriTe8s/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/3D0ZcriTe8s/hqdefault.jpg",
+    "model_name": "Bug"
   },
   {
     "id": "IdI_edKUDto",
@@ -1033,11 +1112,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Satellite Spike Junior",
-    "clean_title": "Satellite",
+    "clean_title": "Spike Satellite",
     "first_letter": "S",
     "category": "mesin",
     "category_label": "⚙️ Mesin & Robot",
-    "thumbnail": "https://i.ytimg.com/vi/IdI_edKUDto/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/IdI_edKUDto/hqdefault.jpg",
+    "model_name": "Satellite"
   },
   {
     "id": "piLNWRyGBg0",
@@ -1050,7 +1130,8 @@ var VIDEOS_DATA = [
     "first_letter": "S",
     "category": "game",
     "category_label": "🎮 Game & Fun",
-    "thumbnail": "https://i.ytimg.com/vi/piLNWRyGBg0/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/piLNWRyGBg0/hqdefault.jpg",
+    "model_name": "See Saw"
   },
   {
     "id": "Glv-MrHHYNk",
@@ -1059,11 +1140,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Guitar Spike Junior",
-    "clean_title": "Guitar",
+    "clean_title": "Spike Guitar",
     "first_letter": "G",
     "category": "game",
     "category_label": "🎮 Game & Fun",
-    "thumbnail": "https://i.ytimg.com/vi/Glv-MrHHYNk/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/Glv-MrHHYNk/hqdefault.jpg",
+    "model_name": "Guitar"
   },
   {
     "id": "y4qdONmtMY8",
@@ -1072,11 +1154,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Drummer Spike Junior",
-    "clean_title": "Drummer",
+    "clean_title": "Spike Drummer",
     "first_letter": "D",
     "category": "game",
     "category_label": "🎮 Game & Fun",
-    "thumbnail": "https://i.ytimg.com/vi/y4qdONmtMY8/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/y4qdONmtMY8/hqdefault.jpg",
+    "model_name": "Drummer"
   },
   {
     "id": "hRbtFlEqLcM",
@@ -1085,11 +1168,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Pirate Ship Spike Junior",
-    "clean_title": "Pirate Ship",
+    "clean_title": "Spike Pirate Ship",
     "first_letter": "P",
     "category": "kendaraan",
     "category_label": "🚗 Kendaraan",
-    "thumbnail": "https://i.ytimg.com/vi/hRbtFlEqLcM/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/hRbtFlEqLcM/hqdefault.jpg",
+    "model_name": "Pirate Ship"
   },
   {
     "id": "yzvU2fetjfY",
@@ -1098,11 +1182,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Flying Heli Spike Junior",
-    "clean_title": "Flying Heli",
+    "clean_title": "Spike Flying Heli",
     "first_letter": "F",
     "category": "kendaraan",
     "category_label": "🚗 Kendaraan",
-    "thumbnail": "https://i.ytimg.com/vi/yzvU2fetjfY/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/yzvU2fetjfY/hqdefault.jpg",
+    "model_name": "Flying Heli"
   },
   {
     "id": "WvFbIKgDDhw",
@@ -1111,11 +1196,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Samurai Car Spike Junior",
-    "clean_title": "Samurai Car",
+    "clean_title": "Spike Samurai Car",
     "first_letter": "S",
     "category": "kendaraan",
     "category_label": "🚗 Kendaraan",
-    "thumbnail": "https://i.ytimg.com/vi/WvFbIKgDDhw/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/WvFbIKgDDhw/hqdefault.jpg",
+    "model_name": "Samurai Car"
   },
   {
     "id": "ommkUDtSdJY",
@@ -1124,11 +1210,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Game Console v2 Spike Junior",
-    "clean_title": "Game Console v2",
+    "clean_title": "Spike Game Console v2",
     "first_letter": "G",
     "category": "game",
     "category_label": "🎮 Game & Fun",
-    "thumbnail": "https://i.ytimg.com/vi/ommkUDtSdJY/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/ommkUDtSdJY/hqdefault.jpg",
+    "model_name": "Game Console v2"
   },
   {
     "id": "NQT6euDP-hA",
@@ -1137,11 +1224,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "J Car with Knight Spike Junior",
-    "clean_title": "Car with Knight",
+    "clean_title": "Spike Car with Knight",
     "first_letter": "C",
     "category": "kendaraan",
     "category_label": "🚗 Kendaraan",
-    "thumbnail": "https://i.ytimg.com/vi/NQT6euDP-hA/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/NQT6euDP-hA/hqdefault.jpg",
+    "model_name": "Car with Knight"
   },
   {
     "id": "9TVLPjrq2_4",
@@ -1150,11 +1238,12 @@ var VIDEOS_DATA = [
     "program_color": "#0F145B",
     "program_age": "Usia 8–10 Tahun",
     "original_title": "Balancer Spike Junior Term 3 Week 1",
-    "clean_title": "Balancer Spike Junior Term 3 Week 1",
+    "clean_title": "Spike Balancer",
     "first_letter": "B",
     "category": "game",
     "category_label": "🎮 Game & Fun",
-    "thumbnail": "https://i.ytimg.com/vi/9TVLPjrq2_4/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/9TVLPjrq2_4/hqdefault.jpg",
+    "model_name": "Balancer"
   },
   {
     "id": "FFdL8ZI8WPA",
@@ -1164,9 +1253,10 @@ var VIDEOS_DATA = [
     "program_age": "Usia 8–10 Tahun",
     "original_title": "Spike Balancer",
     "clean_title": "Spike Balancer",
-    "first_letter": "S",
+    "first_letter": "B",
     "category": "game",
     "category_label": "🎮 Game & Fun",
-    "thumbnail": "https://i.ytimg.com/vi/FFdL8ZI8WPA/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/FFdL8ZI8WPA/hqdefault.jpg",
+    "model_name": "Balancer"
   }
 ];

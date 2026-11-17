@@ -1,12 +1,15 @@
 {
-  "name": "The Lab Kids • Video Hub",
+  "name": "The Lab • Video Belajar",
   "short_name": "TheLab Video",
-  "description": "Panduan Video Rakit LEGO & Robotik The Lab Indonesia tanpa distraksi.",
+  "description": "Katalog Video Panduan LEGO Spike & Robotika The Lab Indonesia",
   "start_url": "./index.html",
+  "scope": "./",
+  "id": "thelab-video-hub-pwa",
   "display": "standalone",
   "background_color": "#0F145B",
   "theme_color": "#0F145B",
   "orientation": "any",
+  "categories": ["education", "kids"],
   "icons": [
     {
       "src": "icons/icon-192.png",

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'thelab-video-v1';
+const CACHE_NAME = 'thelab-video-v3';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -7,6 +7,8 @@ const ASSETS_TO_CACHE = [
   './videos-data.js',
   './videos.json',
   './manifest.json',
+  './dce115fe36a6a534bc99cd379ea93d3b.webp',
+  './thelab-logo.webp',
   './icons/icon-192.png',
   './icons/icon-512.png'
 ];
@@ -34,12 +36,11 @@ self.addEventListener('activate', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
-  // Hanya tangani GET requests dan abaikan skema non-http
   if (event.request.method !== 'GET' || !event.request.url.startsWith('http')) {
     return;
   }
 
-  // Khusus untuk YouTube thumbnails atau embed, gunakan network first
+  // Khusus streaming video YouTube atau thumbnail remote, gunakan network
   if (event.request.url.includes('ytimg.com') || event.request.url.includes('youtube.com')) {
     return;
   }
