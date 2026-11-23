@@ -8,7 +8,7 @@ Aplikasi web katalog video panduan merakit LEGO & Robotika untuk siswa **The Lab
 
 1. **Desain Familiar Mirip YouTube (Zero Learning Curve)**:
    * **Top Navbar**: Logo The Lab dengan ikon play merah, kolom pencarian bentuk pil (*search pill*) khas YouTube.
-   * **Filter Chips Bar**: Pilihan kategori program persis seperti *topic chips* di YouTube (`Semua`, `Spike Kinder`, `Spike Junior Foundation`, `Spike Junior`).
+   * **Filter Chips Bar**: Pilihan kategori program (`Spike Kinder (28)`, `Spike Junior Foundation (20)`, `Spike Junior (42)`, `Mindstorms (30)`).
    * **Grid Video**: Thumbnail 16:9 ber-radius halus, avatar inisial channel "TL", judul model, dan nama program.
    * **YouTube Watch Page**: Layout tonton video ala YouTube desktop — video besar di sebelah kiri dengan tombol kembali, dan daftar *"Model Terkait / Up Next"* di bilah kanan.
 2. **Autoplay Langsung**:

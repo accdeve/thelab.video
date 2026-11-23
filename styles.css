@@ -230,6 +230,12 @@ body {
   border-color: var(--tli-teal);
 }
 
+.tli-tab-btn[data-program="mindstorms"].active {
+  background: #E02424;
+  color: white;
+  border-color: #E02424;
+}
+
 /* Alphabet Filter Bar */
 .tli-alphabet-bar {
   background: #FAFAFC;
@@ -347,6 +353,10 @@ body {
 
 .tli-card[data-program="spike-junior"] {
   border-top-color: var(--tli-navy);
+}
+
+.tli-card[data-program="mindstorms"] {
+  border-top-color: #E02424;
 }
 
 .tli-card:hover {
